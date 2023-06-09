@@ -1,2 +1,3 @@
 #!/bin/bash
-n\ su Betty
+su Betty
+wc -c
