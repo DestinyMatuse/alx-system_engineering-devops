@@ -4,7 +4,6 @@ Project Name.
 Author's Details.
 Name: Destiny Matuse
 
-
 Requirements
 Bash Scripts
 Allowed editors: vi, vim, emacs.
