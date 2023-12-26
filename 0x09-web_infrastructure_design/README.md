@@ -2,7 +2,7 @@ Project Name.
 
 0x09. Web infrastructure design
 
-Tis project is done by Emmanuel Adeninyi, Destiny Matuse, Taiye Alabi
+This project is done by Emmanuel Adeninyi, Destiny Matuse, Taiye Alabi
 
 Requirements
 General
