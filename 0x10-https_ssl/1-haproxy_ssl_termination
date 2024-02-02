@@ -49,11 +49,11 @@ frontend munyasi.tech-frontend
         use_backend letsencrypt-backend if letsencrypt-acl
         default_backend globaldestination.tech-backend
 
-backend munyasi.tech-backend
+backend globaldestination.tech-backend
         balance roundrobin
         redirect scheme https if !{ ssl_fc }
-        server 20639-web-01 3.227.217.150:80 check
-        server 20639-web-02 3.95.27.202:80 check
+        server 445076-web-01 100.25.130.166 check
+        server 445076-web-02 52.23.177.226 check
 
 backend letsencrypt-backend
         server letsencrypt 127.0.0.1:54321
