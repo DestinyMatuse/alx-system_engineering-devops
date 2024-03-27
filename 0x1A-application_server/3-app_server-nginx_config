@@ -1,0 +1,19 @@
+der X-Served-By 109126-web-01;
+
+         location / {
+                 add_header X-Served-By 109126-web-01;
+         }
+
+         location /hbnb_static {
+                 alias /data/web_static/current;
+
+         }
+
+         location /airbnb-onepage/ {
+                 proxy_pass http://localhost:5000;
+         }
+
+         location /airbnb-dynamic/number_odd_or_even/ {
+                 proxy_pass http://localhost:5001/number_odd_or_even/;
+         }
+}
